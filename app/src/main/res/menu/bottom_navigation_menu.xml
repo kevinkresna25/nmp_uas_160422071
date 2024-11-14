@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemHome"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemPlaylist"
+        android:title="Playlist"
+        android:enabled="true"
+        android:icon="@drawable/baseline_library_books_24"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemProfile"
+        android:title="Profile"
+        android:enabled="true"
+        android:icon="@drawable/baseline_person_24"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
